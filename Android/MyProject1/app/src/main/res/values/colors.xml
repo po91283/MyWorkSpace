@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="WindowBlue" >#dff2f5</color>
+    <color name="ActionBarBlue">#b0e0e6</color>
+    <color name="ActionTextBlue">#344345</color>
+    <color name="ActionBarItemBlue">#9ec9cf</color>
+    <color name="DialogTitle">#b5f3e9</color>
+    <color name="DialogWindow">#e6fbf7</color>
+</resources>
