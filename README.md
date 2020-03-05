@@ -1,8 +1,12 @@
 # Development environment setup
 
-* [Introduction](##Introduction)
-* [Prerequisites](##Prerequisites)
-* [Suggested tools](##Suggested tools)
+* [Introduction](#introduction)
+* [Prerequisites](#prerequisites)
+* [Suggested tools](#suggested-tools)
+* [First-run steps](#first-run-steps)
+* [Build and Run Java services from shell](#build-and-run-java-services-from-shell)
+* [Common docker containers operations](#common-docker-containers-operations)
+* [Setup IntelliJ IDEA project](#setup-intelliJ-idea-project)
 
 ## Introduction
 
@@ -177,8 +181,9 @@ Developer environment can be managed using docker-compose and docker standard co
 
     ```
 
-## Build and Run Java services from shell (discouraged)
+## Build and Run Java services from shell
 
+__(WARNING: We do NOT suggest using this way)__  
 Projects use gradle to manage build and execution. IntelliJ IDEA offers useful plugin to manage builds and projects execution.
 IDE setup instruction are attached in appendix and replace the following section. 
 As common quick references, the following section provides instructions to manually build and run using gradle from command line. 
@@ -215,7 +220,7 @@ E.g.
     $ ./gradlew bootRun --parallel
     ```
 
-## Common operations on dependency containers     
+## Common docker containers operations
 
 Operations assume command to be execute in a `Bash` shell (`GIT Bash` shell for Window) having current working directory in PROJECT_ROOT 
 `docker/` sub-folder.
